@@ -1,0 +1,82 @@
+/* review.css */
+
+.review-container {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+     }
+     .review-heading {
+        text-align: center;
+        width: 100%; /* Ensure full width on smaller screens */
+      }
+      .container-1{
+        padding:30px;
+      }
+     
+     .card {
+    width: 100%;
+    max-width: 300px;
+    margin: 20px 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: auto;
+   
+  }
+  
+  .card-body {
+    padding: 20px;
+    
+  }
+  
+  .card-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .card-text {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .rating {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+  }
+  
+  .btn {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  /* Media Queries for responsiveness */
+  @media (min-width: 768px) {
+    .card {
+      width: 30%; 
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .card {
+      width: 100%; 
+    }
+  }
+  
