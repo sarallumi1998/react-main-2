@@ -26,7 +26,7 @@ const App = () => {
         <Route path="/signup" element={<SignUp />} />
         <Route path="/contact" element={<Contact />} />
         </Routes>
-        
+        <CustomCarousel />
         <Footer />
         </div>
     </Router>
